@@ -1,0 +1,35 @@
+html{
+	font-size: 5vmin;
+}
+
+.full{
+	width:100%;
+}
+
+#map{
+	height: 400px;
+}
+
+input[type="text"], textarea, input[type="submit"]{
+	font-size: 5vmin;
+}
+
+#links{
+	h3{
+		margin: 10px 0;
+	}
+	li{
+		margin-left: 20px;
+	}
+}
+
+#payments{
+	text-align: center;
+}
+
+footer{
+	ul{
+		display: inline-block;
+		margin: 10px 0 0 0;
+	}
+}

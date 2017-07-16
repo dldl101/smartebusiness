@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body, ul, p, h1, h1, h2, h3, h4, label {
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-color: #f4f4f4;
+  padding: 20px; }
+  header img {
+    display: block;
+    margin: 0 auto; }
+
+#breadcrumb {
+  padding: 20px;
+  color: #414141; }
+
+#contactForm {
+  color: #414141;
+  padding: 20px; }
+  #contactForm .item {
+    margin-top: 10px; }
+  #contactForm input[type="text"] {
+    display: block;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s; }
+  #contactForm input[type="text"]:focus {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696; }
+  #contactForm textarea {
+    display: block;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s; }
+  #contactForm textarea:focus {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696; }
+  #contactForm input[type="submit"] {
+    color: #ffffff;
+    background-color: #303030;
+    border: none;
+    padding: 20px 50px;
+    float: right;
+    -webkit-appearance: none; }
+  #contactForm .valid {
+    border: solid 1px #55d153;
+    box-shadow: 0 0 5px 3px #55d153;
+    color: #55d153; }
+  #contactForm .error {
+    box-shadow: 0 0 5px 3px #9e313a;
+    border: solid 1px #9e313a;
+    color: #9e313a; }
+  #contactForm #email-error, #contactForm #username-error, #contactForm #telephone-error, #contactForm #comment-error {
+    border: none;
+    box-shadow: none; }
+
+#contactForm:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+#contactDetails {
+  background-color: #f4f4f4;
+  color: #414141;
+  padding: 20px; }
+  #contactDetails h4, #contactDetails p {
+    margin-top: 40px; }
+  #contactDetails .sameLine {
+    margin-top: 40px; }
+    #contactDetails .sameLine h4, #contactDetails .sameLine p {
+      display: inline; }
+  #contactDetails .closer {
+    margin-top: 40px; }
+    #contactDetails .closer p {
+      margin: 0; }
+
+#menu {
+  background-color: #5b5b5b;
+  color: #ffffff;
+  padding: 20px; }
+  #menu h3 {
+    display: inline; }
+  #menu i {
+    float: right;
+    margin-top: 0.3em; }
+
+#links {
+  background-color: #5b5b5b;
+  color: #ffffff;
+  padding: 20px; }
+  #links ul {
+    list-style-type: none; }
+  #links #social {
+    font-size: 150%;
+    color: #000000; }
+    #links #social li {
+      display: inline; }
+  #links #newsletter {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 10px; }
+    #links #newsletter input[type="text"] {
+      border: 0; }
+    #links #newsletter input[type="submit"] {
+      -webkit-appearance: none;
+      background-color: #a4a4a4;
+      border: 0;
+      color: #ffffff;
+      padding: 10px;
+      border-radius: 25px; }
+
+footer {
+  background-color: #303030;
+  color: #bababa;
+  padding: 20px;
+  font-size: 75%; }
+  footer ul {
+    list-style-type: none; }
+    footer ul li {
+      display: inline; }
